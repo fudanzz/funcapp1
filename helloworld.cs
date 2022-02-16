@@ -27,7 +27,7 @@ namespace openhack
 
             string responseMessage = string.IsNullOrEmpty(productID)
                 ? "pls provide product id for your query!"
-                : $"The product name for your product id {productID} is Starfruit Explosion";
+                : $"The product name for your product id {productID} is Starfruit Explosion123";
 
             return new OkObjectResult(responseMessage);
         }
